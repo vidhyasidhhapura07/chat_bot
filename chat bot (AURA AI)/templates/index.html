@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant | DeepSeek</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+        <header>
+            <div class="status-indicator"></div>
+            <span id="statusDot" class="dot offline"></span>
+            <h2>Aura AI</h2>
+        </header>
+
+        <div id="chat-box">
+            <div class="message bot-message">
+                Hello! I'm Aura, your intelligent assistant. How can I help you today?
+            </div>
+        </div>
+
+
+        <div class="waves">
+            <div class="line"></div>
+
+        </div>
+
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+            <button id="mic-btn">
+                <span>🎙</span>
+            </button>
+            <button id="send-btn">
+                <span>Send</span>
+            </button>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
